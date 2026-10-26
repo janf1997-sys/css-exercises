@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+.pink {
+    background-color: rgba(255, 112, 112, 0.801);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: hsl(246, 89%, 51%);
+    font-size: 36px;
+}
+#three {
+    font-size: 24px;
+}
+#four {
+    background-color: rgb(10 255 50 / 0.8);
+    font-size: 24px;
+    font-weight: bold;
+}
