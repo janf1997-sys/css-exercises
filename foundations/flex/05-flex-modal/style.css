@@ -24,22 +24,32 @@ body {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  padding: 10px 20px;
-  flex-basis: 1;
+  gap: 16px;
+  padding: 16px;
 }
 .whole-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.text {
+  margin-top: 10px;
 }
 .header {
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .modal-left {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-right: 15px;
+  /*margin-right: 15px;
+  margin-top: 5px;*/
+}
+.buttons-bot {
+  margin: 10px 0;
 }
 .icon {
   color: royalblue;
